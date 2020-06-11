@@ -24,7 +24,7 @@ a {
 
 /* Custom design below! */
 .banner {
-  background-image: url("https://previews.123rf.com/images/karpenkoilia/karpenkoilia1805/karpenkoilia180500027/102146167-vector-line-web-concept-for-programming-linear-web-banner-for-coding-.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url("https://images.unsplash.com/flagged/photo-1556655678-9d4812e3fbe9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
   background-size: cover;
   background-position: center;
   padding: 200px 0;
@@ -86,7 +86,7 @@ card p {
 }
 
 .footer {
-  padding: 60px;
+  padding: 50px;
   background-color: #2c2b2b;
 }
 .footer p {
