@@ -1,0 +1,111 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Custom design below! */
+.banner {
+  background-image: url("../../images/background.png");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.btn-treehouse {
+  color: white;
+  padding: 15px 36px;
+  border-radius: 50px;
+  font-weight: bold;
+  background-color: #1EDD88;
+  transition: background 0.3s ease;
+  display: inline-block; /* creates the margins from the boundaries  */
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
+
+/* cards */
+cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+card {
+  width: 200px;
+  background: white;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(230, 230, 230, 0.9);
+  /* align-content: flex-start; */
+}
+card p {
+  opacity: 0.5;
+}
+
+.card-icons {
+  width: 70%;
+}
+
+.footer {
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+.footer p {
+  color: #6B6C6C;
+  /* opacity: 0.9; */
+  font-size: 18px;
+  font-weight: lighter;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fab {
+font-size: x-large;
+color: #1EDD88;
+}
